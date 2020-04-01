@@ -12,13 +12,14 @@
     "eslint-config-react": "^1.1.7",
     "eslint-plugin-deprecate": "^0.5.4",
     "eslint-plugin-prettier": "^3.1.1",
+    "moment": "^2.24.0",
     "prettier": "^1.18.2",
     "prettier-eslint": "^9.0.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
-    "styled-components": "^4.4.0"
+    "styled-components": "^4.4.1"
   },
   "scripts": {
     "start": "react-scripts start",

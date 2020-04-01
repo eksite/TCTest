@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 
+
 const useLoadData = (url,) => {
     const [loadData, setLoadData] = useState([]);
 
@@ -11,7 +12,7 @@ const useLoadData = (url,) => {
         };
         fetchData();
     }, [url]);
-
+    
     return loadData;
 };
 export default useLoadData;
