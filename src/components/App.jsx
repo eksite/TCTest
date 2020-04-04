@@ -27,7 +27,7 @@ const App=()=>{
 };
 
 const baseDateFormatter = ( year, month, day, hour, min ) => {
-    const launchTime = moment({ y: year, M: month, d: day, h: hour, m: min }).format('d.MM.YYYY Qo , h:mm a');
+    const launchTime = moment({ y: year, M: month, d: day, h: hour, m: min }).format('D.MM.YYYY Qo , h:mm a');
     const timeStamp = moment({ y: year, M: month, d: day, h: hour, m: min }).format('X');
     return [launchTime, timeStamp];
 };

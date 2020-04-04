@@ -8,7 +8,7 @@ height: 76px;
 line-height:76px;
 color: #14181E;
 background-color: ${props => props.isColor ? 'rgba(18, 24, 57, 0.04)' : '#FFFFFF'};
-text-align:${props => props.isFirst ? 'right' : 'qwe'};
+text-align:${props => props.isFirst ? 'center' : ''};
 `;
 
 const GridWrapper=Styled.div`
@@ -27,9 +27,8 @@ const Paragraph=Styled.p`
     padding-top:22px;
     padding-bottom: 18px;
     background-color: rgba(18, 24, 57, 0.04);
-    text-align:${props => props.isFirst ? 'right' : 'qwe'};
     &:nth-child(1){
-        text-align:right;
+        text-align:center;
     }
 `;
 
