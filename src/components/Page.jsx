@@ -3,31 +3,31 @@ import Header from './Header';
 import App from './App';
 import Styled from 'styled-components';
 
-const GridChild=Styled.div`
-height: 76px;
-line-height:76px;
-color: #14181E;
-background-color: ${props => props.isColor ? 'rgba(18, 24, 57, 0.04)' : '#FFFFFF'};
-text-align:${props => props.isFirst ? 'center' : ''};
+const GridChild = Styled.div`
+    height: 76px;
+    line-height: 76px;
+    color: #14181E;
+    background-color: ${props => props.isColor ? 'rgba(18, 24, 57, 0.04)' : '#FFFFFF'};
+    text-align:${props => props.isFirst ? 'center' : ''};
 `;
 
-const GridWrapper=Styled.div`
+const GridWrapper = Styled.div`
     margin: auto;
     display: grid;
     width: 100%;
-    // margin-left:110px;
     grid-template-columns: 0.7fr 1.2fr 1fr 1fr 1fr 1fr 1fr;
 `;
-const Paragraph=Styled.p`
+
+const Paragraph = Styled.p `
     margin: 0 0 10px 0;
     color: #14181E;
     width: 100%;
     height: 22px;
-    font-size:18px;
-    padding-top:22px;
+    font-size: 18px;
+    padding-top: 22px;
     padding-bottom: 18px;
     background-color: rgba(18, 24, 57, 0.04);
-    &:nth-child(1){
+    &:nth-child(1) {
         text-align:center;
     }
 `;
